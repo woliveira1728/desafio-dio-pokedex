@@ -84,6 +84,23 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 5px 5px black;
+    transition: all ease-in 0.15s;
+    cursor: pointer;
+}
+
+.pokemon:hover {
+    translate: -4px -4px;
+    box-shadow: 9px 9px black;
+}
+
+.pokemonfull {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px black;
 }
 
 .pokemon .number {
@@ -144,6 +161,13 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+.pagination button:hover {
+    translate: -4px -4px;
+    box-shadow: 4px 4px black;
 }
 
 @media screen and (min-width: 380px) {
